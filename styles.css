@@ -1,0 +1,29 @@
+@import url(styles/header.css);
+@import url(styles/banner.css);
+@import url(styles/carrossel.css);
+
+:root {
+    --cor-de-fundo: #ff0000;
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --fonte_principal: "Roboto"
+}
+
+:root {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte_principal);
+}
+
+ 
+.saopaulo {
+    width: 50%;
+}
+
+body {
+    font-size: 16px;
+    font-weight: 400;
+}
